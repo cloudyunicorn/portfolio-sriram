@@ -4,6 +4,8 @@
 }
 .nav__list-item {
   margin-left: 1.5em;
+  padding: 0 12px;
+  font-size: 18px;
 }
 
 .app .nav__hamburger {

@@ -1,6 +1,11 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  scroll-margin-top: 150px;
+}
+
+.about h1 {
+  font-size: 36px;
 }
 
 .about__name {
@@ -8,17 +13,19 @@
 }
 
 .about__role {
-  margin-top: 1.2em;
+  margin-top: 12px;
+  font-size: 24px;
 }
 
 .about__desc {
-  font-size: 1rem;
-  max-width: 600px;
+  font-size: 20px;
+  max-width: 800px;
+  text-align: center;
 }
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2em;
 }
 
 .about .link--icon {

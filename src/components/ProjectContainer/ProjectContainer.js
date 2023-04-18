@@ -1,14 +1,27 @@
-import uniqid from 'uniqid'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LaunchIcon from '@mui/icons-material/Launch'
-import './ProjectContainer.css'
+import uniqid from 'uniqid';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
+import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
-    <h3>{project.name}</h3>
+  <div className="project">
+    <div className="project__layout" style={project.layout === 'right' ? {flexDirection: 'row-reverse'} : {flexDirection: 'row'}}>
+      <h3 className="project__image">{project.name}</h3>
+      <div className="project__text">
+        <p className="project__description">{project.description}</p>
+        <div className="link--casestudy">
+        <p
+            href="#projects"
+            // onClick={}
+            className="link link--nav casestudy--button"
+          >
+            Read Case Study
+          </p>
 
-    <p className='project__description'>{project.description}</p>
-    {project.stack && (
+        </div>
+      </div>
+    </div>
+    {/* {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
@@ -36,8 +49,8 @@ const ProjectContainer = ({ project }) => (
       >
         <LaunchIcon />
       </a>
-    )}
+    )} */}
   </div>
-)
+);
 
-export default ProjectContainer
+export default ProjectContainer;
