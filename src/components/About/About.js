@@ -1,7 +1,8 @@
-import GitHubIcon from '@mui/icons-material/GitHub'
-import LinkedInIcon from '@mui/icons-material/LinkedIn'
-import { about } from '../../portfolio'
-import './About.css'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { about } from '../../portfolio';
+import './About.css';
 
 const About = () => {
   const { name, role, description, resume, social } = about
@@ -28,7 +29,7 @@ const About = () => {
 
         {social && (
           <>
-            {social.github && (
+            {/* {social.github && (
               <a
                 href={social.github}
                 aria-label='github'
@@ -36,7 +37,7 @@ const About = () => {
               >
                 <GitHubIcon />
               </a>
-            )}
+            )} */}
 
             {social.linkedin && (
               <a
@@ -45,6 +46,24 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+            {social.email && (
+              <a
+                href={`mailto: ${social.email}`}
+                aria-label='email'
+                className='link link--icon'
+              >
+                <EmailIcon />
+              </a>
+            )}
+            {social.instagram && (
+              <a
+                href={social.instagram}
+                aria-label='instagram'
+                className='link link--icon'
+              >
+                <InstagramIcon />
               </a>
             )}
           </>

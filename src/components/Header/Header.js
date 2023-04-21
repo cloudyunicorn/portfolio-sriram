@@ -1,5 +1,6 @@
-import { header } from '../../portfolio'
-import Navbar from '../Navbar/Navbar'
+import { header } from '../../portfolio';
+import Navbar from '../Navbar/Navbar';
+import { HashLink } from "react-router-hash-link";
 import './Header.css'
 
 const Header = () => {
@@ -9,9 +10,11 @@ const Header = () => {
     <header className='header center'>
       <h3>
         {homepage ? (
-          <a href="#home" className='link'>
+          <HashLink
+            to="/#home"
+            className='link initials'>
             {title}
-          </a>
+          </HashLink>
         ) : (
           title
         )}

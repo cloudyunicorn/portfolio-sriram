@@ -2,22 +2,33 @@ import uniqid from 'uniqid';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 import './ProjectContainer.css';
+import { Link } from 'react-router-dom';
+import { CaseStudy } from '../CaseStudy/CaseStudy';
 
 const ProjectContainer = ({ project }) => (
   <div className="project">
-    <div className="project__layout" style={project.layout === 'right' ? {flexDirection: 'row-reverse'} : {flexDirection: 'row'}}>
-      <h3 className="project__image">{project.name}</h3>
+    <div
+      className="project__layout"
+      style={
+        project.layout === 'right'
+          ? { flexDirection: 'row-reverse' }
+          : { flexDirection: 'row' }
+      }
+    >
+      <img src={project.image} alt="Product" className="project__image" />
+
       <div className="project__text">
         <p className="project__description">{project.description}</p>
         <div className="link--casestudy">
-        <p
-            href="#projects"
-            // onClick={}
-            className="link link--nav casestudy--button"
-          >
-            Read Case Study
-          </p>
-
+          <Link to={{ pathname: '/caseStudy', state: { project } }}>
+            <button
+              // href="#projects"
+              // onClick={}
+              className="casestudy--button"
+            >
+              View Case Study
+            </button>
+          </Link>
         </div>
       </div>
     </div>

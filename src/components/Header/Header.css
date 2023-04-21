@@ -1,12 +1,16 @@
 .header {
   height: 6em;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.initials {
+  margin-left: 2rem;
 }
 
 @media (max-width: 600px) {

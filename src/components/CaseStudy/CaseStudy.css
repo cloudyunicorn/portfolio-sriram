@@ -1,0 +1,266 @@
+.casestudy {
+  max-width: 1142px;
+}
+
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image {
+  width: 114.712%;
+}
+
+.project-overview {
+  margin-top: 144px;
+}
+
+.overview-heading {
+  font-size: 48px;
+  text-align: center;
+}
+
+.overview-subheading {
+  font-size: 36px;
+  margin-top: 156px;
+}
+
+.overview-desc {
+  font-size: 20px;
+  margin-top: 36px;
+}
+
+.statement-specs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 73.33px;
+  margin-top: 120px;
+}
+
+.specs {
+  flex: 1 1 0px;
+}
+
+.insights-heading,
+.empathy-heading {
+  font-size: 48px;
+}
+
+.hypothesis,
+.survey-heading,
+.user-interview,
+.insights-subheading,
+.insights-quote,
+.map-heading,
+.persona-heading,
+.journey-heading,
+.info-arch-heading,
+.sitemap-heading,
+.wire-heading,
+.user-interface,
+.deliverables,
+.learnings-heading {
+  font-size: 36px;
+}
+
+.insight-heading,
+.ui-heading,
+.colors-heading,
+.spacing-grid {
+  font-size: 24px;
+}
+
+.bg-desc,
+.survey-details,
+.interview-desc,
+.interview-heading,
+.heading-desc,
+.insight-desc,
+.info-arch-desc,
+.ui-desc,
+.spacing-desc,
+.deliverables-desc,
+.learning-desc {
+  font-size: 20px;
+}
+
+.insight-num {
+  font-size: 18px;
+}
+
+.background-heading,
+.research-heading,
+.concept-heading,
+.design-heading,
+.summary-heading,
+.casestudy-end {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 228px;
+}
+
+.bg-desc,
+.survey-details,
+.interview-desc,
+.heading-desc,
+.insight,
+.insight-heading,
+.insight-desc,
+.empathy-map-img,
+.persona-img,
+.journey-map-img,
+.info-arch-desc,
+.ui-desc,
+.spacing-desc,
+.deliverables-desc {
+  margin-top: 36px;
+}
+
+.colors-subheading {
+  margin-top: 48px;
+  font-size: 20px;
+}
+
+.style-box {
+  margin-top: 60px;
+}
+
+.survey-image,
+.interview-heading,
+.info-arch-img,
+.paper-wireframes-imgs,
+.lowfide-imgs1,
+.midFideImg,
+.ui-images {
+  margin-top: 72px;
+}
+
+.ui-heading {
+  margin-top: 84px;
+}
+
+.spacing-grid {
+  margin-top: 96px;
+}
+
+.user-interview,
+.user-persona,
+.user-journey,
+.sitemap,
+.style-guide,
+.learnings-heading {
+  margin-top: 120px;
+}
+
+.hypothesis,
+.why,
+.business,
+.survey-heading,
+.insights-subheading,
+.map-heading,
+.info-arch,
+.user-interface,
+.deliverables {
+  margin-top: 156px;
+}
+
+.insights,
+.building-empathy {
+  margin-top: 264px;
+  /* background-color: #D7E9F7; */
+  /* width: 100vw; */
+}
+
+.insights-subheading {
+  margin-bottom: 56px;
+}
+
+.insight {
+  padding: 48px 36px;
+  border-radius: 24px;
+}
+
+.insights-heading {
+  text-align: center;
+}
+
+.insight {
+  box-shadow: var(--shadow);
+}
+
+.insights-quote {
+  margin-top: 150px;
+}
+
+.empathy-heading {
+  text-align: center;
+}
+
+.survey-image,
+.empathy-map-img,
+.persona-img,
+.journey-map-img,
+.info-arch-img,
+.midFideImg {
+  width: 1142px;
+}
+
+.paper-wireframes-imgs {
+  display: flex;
+  gap: 63px;
+}
+
+.paper-img {
+  width: 178px;
+}
+
+.lowfide-imgs1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 169px;
+  row-gap: 72px;
+}
+
+.lowfide1-img {
+  width: 268px;
+}
+
+.lowfide-imgs2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 169px;
+  row-gap: 72px;
+}
+
+.lowfide2-img {
+  width: 268px;
+}
+
+.ui-images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 169px;
+  row-gap: 72px;
+  
+}
+
+.ui-img {
+  width: 268px;
+}
+
+.style-box {
+  display: flex;
+  
+}
+
+.typography, .colors {
+  flex: 1 1 0px;
+}
+
+.learnings-heading {
+  margin-bottom: 36px;
+}
