@@ -11,6 +11,7 @@
 
 .initials {
   margin-left: 2rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 600px) {

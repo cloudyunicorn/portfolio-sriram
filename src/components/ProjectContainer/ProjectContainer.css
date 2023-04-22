@@ -20,7 +20,7 @@
 }
 
 .project__image {
-  flex: 2;
+  flex: 1.5;
   width: 60%;
 }
 
@@ -61,6 +61,7 @@
 }
 
 .casestudy--button {
+  font-size: 1.2rem;
   font-weight: 700;
   background-color: var(--clr-primary);
   color: #fff;
@@ -74,4 +75,26 @@
 
 .casestudy--button:hover {
   box-shadow: var(--shadow);
+}
+
+.project-textbox {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 2rem 0;
+}
+
+.project-skill {
+  color: rgb(95, 95, 95);
+}
+
+.project-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.project-intro {
+  font-weight: 600;
 }

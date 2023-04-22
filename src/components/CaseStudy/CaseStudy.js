@@ -1,8 +1,8 @@
 import React from 'react';
 import uniqid from 'uniqid';
-import Banner1 from '../../assets/Case Study 1- Taco Truckin/Case study banner.png';
-import Banner2 from '../../assets/Case Study 2- Nest Quest/Case study banner.png';
-import Banner3 from '../../assets/Case Study 3- VitalFlow/Case study banner.png';
+import Banner1 from '../../assets/Case Study 1- Taco Truckin/Banner.png';
+import Banner2 from '../../assets/Case Study 2- Nest Quest/Banner.png';
+import Banner3 from '../../assets/Case Study 3- VitalFlow/Banner.png';
 import './CaseStudy.css';
 
 export const CaseStudy = (from) => {
@@ -19,7 +19,7 @@ export const CaseStudy = (from) => {
   console.log(caseStudy);
   return (
     <div className="casestudy">
-      <div className="banner">
+      <div className="banner" id="banner">
         <img src={banner} alt="Banner" className="banner-image" />
       </div>
       <div className="project-overview">
@@ -28,19 +28,19 @@ export const CaseStudy = (from) => {
         <p className="overview-desc">{caseStudy.projectOverview.problemStatement}</p>
         <div className="statement-specs">
           <div className="specs">
-            <h5>TIMELINE</h5>
+            <h4>TIMELINE</h4>
             <p>{caseStudy.projectOverview.timeline}</p>
           </div>
           <div className="specs">
-            <h5>ROLE</h5>
+            <h4>ROLE</h4>
             <p>{caseStudy.projectOverview.role}</p>
           </div>
           <div className="specs">
-            <h5>TEAM</h5>
+            <h4>TEAM</h4>
             <p>{caseStudy.projectOverview.team}</p>
           </div>
           <div className="specs">
-            <h5>PLATFORM</h5>
+            <h4>PLATFORM</h4>
             <p>{caseStudy.projectOverview.platform}</p>
           </div>
         </div>
@@ -55,10 +55,16 @@ export const CaseStudy = (from) => {
           <h4>WHY?</h4>
           <p className="bg-desc">{caseStudy.background.why}</p>
         </div>
-        <div className="business">
-          <h4>BUSINESS OPPORTUNITIES</h4>
-          <p className="bg-desc">{caseStudy.background.businessOp}</p>
-        </div>
+        {caseStudy.name === 'Taco Trukin’' && 
+          <div className="business">
+            <h4>BUSINESS OPPORTUNITIES</h4>
+            <p className="bg-desc">{caseStudy.background.businessOp}</p>
+            <div className="bus-op-box">
+              <img src={caseStudy.background.businessOpImg} alt="Business oppurtunity" className="bus-op-img" />
+            </div>
+            
+          </div>
+        }
       </div>
       <div className="research">
         <h3 className="research-heading">Research</h3>
@@ -67,7 +73,7 @@ export const CaseStudy = (from) => {
           <p className="survey-details">{caseStudy.research.surveyRes}</p>
           
             {caseStudy.research.surveyImages && 
-              <div>
+              <div className="survey-box">
                 <img src={caseStudy.research.surveyImages} alt="Survey" className="survey-image" />
               </div>
             }
@@ -87,7 +93,7 @@ export const CaseStudy = (from) => {
           <div className="heading-desc">
             {caseStudy.research.userInt.head1Desc.map((hd1, i) => {
               return (
-                <p className="desc-point" key={uniqid()}>{hd1.point}</p>
+                <p className="desc-point" key={uniqid()}>• {hd1.point}</p>
               )
             })}
           </div>
@@ -137,10 +143,12 @@ export const CaseStudy = (from) => {
           <p className="info-arch-desc">{caseStudy.concept.infoArch}</p>
           <img src={caseStudy.concept.infoArchImg} alt="" className="info-arch-img" />
         </div>
-        <div className="sitemap">
-          <h4 className="sitemap-heading">SITEMAP</h4>
-          <img src={caseStudy.concept.sitemap} alt="" className="info-arch-img" />
-        </div>
+        {caseStudy.name === 'Nest Quest' && 
+          <div className="sitemap">
+            <h4 className="sitemap-heading">SITEMAP</h4>
+            <img src={caseStudy.concept.sitemap} alt="" className="info-arch-img" />
+          </div>
+        }
         {caseStudy.name === 'Taco Trukin’' &&
           <div className="info-arch">
             <h4 className="wire-heading">PAPER WIREFRAMES</h4>
@@ -157,7 +165,9 @@ export const CaseStudy = (from) => {
           </div>
         }
         <div className="info-arch">
-          <h4>LOW FIDELITY WIREFRAMES</h4>
+          {caseStudy.name === ('Taco Trukin’' || 'Nest Quest') &&
+            <h4 className="wire-heading">LOW FIDELITY WIREFRAMES</h4>
+          }
           <p className="info-arch-desc">
             {caseStudy.concept.paperWireframes}
           </p>
@@ -182,7 +192,7 @@ export const CaseStudy = (from) => {
         </div>
         {caseStudy.name === 'Taco Trukin’' &&
           <div className="info-arch">
-            <h4>MID-FIDELITY WIREFRAMES AND PROTOTYPE</h4>
+            <h4 className="wire-heading">MID-FIDELITY WIREFRAMES AND PROTOTYPE</h4>
             <p className="info-arch-desc">
               {caseStudy.concept.midFidWireframes}
             </p>
@@ -211,9 +221,10 @@ export const CaseStudy = (from) => {
           })}
         </div>
         <div className="style-guide">
-          <h4 className="style-heading">STYLE GUIDE</h4>
+          {/* <h4 className="style-heading">STYLE GUIDE</h4> */}
           <div className="style-box">
-            <div className="colors">
+            <img src={caseStudy.styleGuideImg} alt="style guide"  className="style-guide-img"/>
+            {/* <div className="colors">
               <h4 className="colors-heading">Colours</h4>
               <h5 className="colors-subheading">Primary & Secondary Colours</h5>
               <h5 className="colors-subheading">Neutrals & Other Colours</h5>
@@ -233,10 +244,10 @@ export const CaseStudy = (from) => {
                 <p className="semi-bold">AaBbCcDdEeFfGgHh</p>
                 <p className="bold">AaBbCcDdEeFfGgHh</p>
               </div>
-            </div>
+            </div> */}
           </div>
-          <h5 className="spacing-grid">Spacing and grid</h5>
-          <p className="spacing-desc">{caseStudy.spacing}</p>
+          {/* <h5 className="spacing-grid">Spacing and grid</h5>
+          <p className="spacing-desc">{caseStudy.spacing}</p> */}
         </div>
       </div>
       <div className="summary">
@@ -250,11 +261,11 @@ export const CaseStudy = (from) => {
         }
           {caseStudy.learnings.map((learning, i) => {
             return (
-              <div key={uniqid()}>
-                <p className="learning-desc">
-                  <span className="learning-desc-heading">{learning.heading}</span>{learning.desc}
-                </p>
-              </div>
+              <ul key={uniqid()}>
+                <li className="learning-desc">
+                  <span className="learning-desc-heading">{learning.heading}:</span> {learning.desc}
+                </li>
+              </ul>
             )
           })}
         </div>

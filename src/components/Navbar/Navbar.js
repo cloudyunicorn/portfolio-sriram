@@ -4,6 +4,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { projects, skills, contact } from '../../portfolio';
 import './Navbar.css';
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   // const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -17,7 +18,7 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className="nav__list"
       >
-        <li className="nav__list-item">
+        {/* <li className="nav__list-item">
           <HashLink
             to="/#home"
             // href="#home"
@@ -26,7 +27,7 @@ const Navbar = () => {
           >
             Home
           </HashLink>
-        </li>
+        </li> */}
         {projects.length ? (
           <li className="nav__list-item">
             <HashLink
@@ -34,22 +35,33 @@ const Navbar = () => {
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Projects
+              Portfolio
             </HashLink>
           </li>
         ) : null}
 
-        {skills.length ? (
+        
           <li className="nav__list-item">
             <HashLink
-              to="/#skills"
+              to="/#resume"
               onClick={toggleNavList}
               className="link link--nav"
             >
-              Skills
+              Resume
             </HashLink>
           </li>
-        ) : null}
+
+          <li className="nav__list-item">
+            <Link to={{ pathname: '/about' }}>
+              <button
+                // href="#projects"
+                // onClick={}
+                className="link link--nav"
+              >
+                About
+              </button>
+            </Link>
+          </li>
 
         {contact.email ? (
           <li className="nav__list-item">
@@ -62,6 +74,7 @@ const Navbar = () => {
             </HashLink>
           </li>
         ) : null}
+          
       </ul>
 
       <button

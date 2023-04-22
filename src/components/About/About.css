@@ -28,8 +28,17 @@
   margin-top: 2em;
 }
 
+.about__contact {
+  gap: 20px;
+  margin-top: 4rem;
+}
+
 .about .link--icon {
   margin-right: 0.8em;
+}
+
+.link--icon svg {
+  font-size: 2rem;
 }
 
 .about .btn--outline {

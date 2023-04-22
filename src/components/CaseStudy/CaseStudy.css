@@ -15,22 +15,22 @@
 }
 
 .project-overview {
-  margin-top: 144px;
+  margin-top: 9rem;
 }
 
 .overview-heading {
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
 }
 
 .overview-subheading {
-  font-size: 36px;
-  margin-top: 156px;
+  font-size: 2rem;
+  margin-top: 7rem;
 }
 
 .overview-desc {
-  font-size: 20px;
-  margin-top: 36px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 .statement-specs {
@@ -38,16 +38,30 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 73.33px;
-  margin-top: 120px;
+  margin-top: 6rem;
 }
 
 .specs {
   flex: 1 1 0px;
+  font-size: 1.5rem;
+}
+
+.specs p {
+  margin-top: 1rem;
+}
+
+.survey-box {
+  display: flex;
+  justify-content: center;
+}
+
+.survey-image {
+  width: 1000px;
 }
 
 .insights-heading,
 .empathy-heading {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .hypothesis,
@@ -64,14 +78,14 @@
 .user-interface,
 .deliverables,
 .learnings-heading {
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 .insight-heading,
 .ui-heading,
 .colors-heading,
 .spacing-grid {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .bg-desc,
@@ -85,11 +99,11 @@
 .spacing-desc,
 .deliverables-desc,
 .learning-desc {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .insight-num {
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .background-heading,
@@ -98,9 +112,9 @@
 .design-heading,
 .summary-heading,
 .casestudy-end {
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
-  margin-top: 228px;
+  margin-top: 12rem;
 }
 
 .bg-desc,
@@ -117,16 +131,16 @@
 .ui-desc,
 .spacing-desc,
 .deliverables-desc {
-  margin-top: 36px;
+  margin-top: 2rem;
 }
 
 .colors-subheading {
-  margin-top: 48px;
-  font-size: 20px;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .style-box {
-  margin-top: 60px;
+  margin-top: 3rem;
 }
 
 .survey-image,
@@ -136,15 +150,15 @@
 .lowfide-imgs1,
 .midFideImg,
 .ui-images {
-  margin-top: 72px;
+  margin-top: 4rem;
 }
 
 .ui-heading {
-  margin-top: 84px;
+  margin-top: 4rem;
 }
 
 .spacing-grid {
-  margin-top: 96px;
+  margin-top: 3.5rem;
 }
 
 .user-interview,
@@ -153,7 +167,7 @@
 .sitemap,
 .style-guide,
 .learnings-heading {
-  margin-top: 120px;
+  margin-top: 6rem;
 }
 
 .hypothesis,
@@ -165,23 +179,31 @@
 .info-arch,
 .user-interface,
 .deliverables {
-  margin-top: 156px;
+  margin-top: 4rem;
 }
 
 .insights,
 .building-empathy {
-  margin-top: 264px;
+  margin-top: 7rem;
   /* background-color: #D7E9F7; */
   /* width: 100vw; */
 }
 
 .insights-subheading {
-  margin-bottom: 56px;
+  margin-bottom: 3rem;
+}
+
+.insights {
+  background-color: #D7E9F7;
+  margin-left: -240px;
+    width: 100vw;
+    padding: 5rem 20rem;
 }
 
 .insight {
   padding: 48px 36px;
   border-radius: 24px;
+  background-color: #fff;
 }
 
 .insights-heading {
@@ -193,14 +215,16 @@
 }
 
 .insights-quote {
-  margin-top: 150px;
+  margin-top: 8rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .empathy-heading {
   text-align: center;
 }
 
-.survey-image,
+/* .survey-image, */
 .empathy-map-img,
 .persona-img,
 .journey-map-img,
@@ -254,7 +278,7 @@
 
 .style-box {
   display: flex;
-  
+  justify-content: center;
 }
 
 .typography, .colors {
@@ -263,4 +287,27 @@
 
 .learnings-heading {
   margin-bottom: 36px;
+}
+
+.style-guide-img {
+  width: 80%;
+}
+
+.bus-op-img {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.bus-op-box {
+  display: flex;
+  justify-content: center;
+}
+
+.learnings li {
+  list-style-type: disc;
+}
+
+.learning-desc-heading {
+  text-decoration: underline;
+  font-weight: 700;
 }

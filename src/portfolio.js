@@ -91,6 +91,10 @@ import uiImage351 from './assets/Case Study 3- VitalFlow/User Interface/Nutritio
 import uiImage352 from './assets/Case Study 3- VitalFlow/User Interface/Nutrition Tracker/Nutrition 2.png';
 import uiImage361 from './assets/Case Study 3- VitalFlow/User Interface/Progress Photos and Notifications/Progress Photos.png';
 import uiImage362 from './assets/Case Study 3- VitalFlow/User Interface/Progress Photos and Notifications/Notifications.png';
+import style1 from './assets/Case Study 1- Taco Truckin/Style Guide.png';
+import style2 from './assets/Case Study 2- Nest Quest/Style Guide.png';
+import style3 from './assets/Case Study 3- VitalFlow/Style Guide.png';
+import busOpImg from './assets/Case Study 1- Taco Truckin/Business Opportunities.png';
 
 
 const header = {
@@ -123,6 +127,7 @@ const projects = [
     image: projectImg1,
     name: "Taco Trukin’",
     brandDesc: 'Taco Truckin Transporting the taste of Mexico to everyone',
+    styleGuideImg: style1,
     projectOverview: {
       problemStatement: 'Following the coronavirus lockdown, online food ordering has become a lifeline for restaurants across the globe. Taco Truckin’, a Mexican food truck chain is looking for a way to combat the loss of its customer base due to long queues and the lack of home delivery options.',
       timeline: 'Dec. 2022 - Feb. 2023',
@@ -133,7 +138,8 @@ const projects = [
     background: {
       hypothesis: 'A mobile app that provides a range of quick, affordable, and convenient meal options that are customizable and can help the users place the order at their convenience.',
       why: 'Online food ordering has significantly increased in the past few years. It served as a way for restaurants to keep their businesses afloat during the lockdown. Post-lockdown, off-premises dining is still preferred by a large consumer base. Mobile ordering technology has become the new standard for the restaurant industry. Taco Truckin’, a food truck chain, started losing its consumer base due to the lack of online ordering options. The restaurant has big queues and long wait times which are driving the customer base away. They are looking for a way to tackle this issue and expand their business.',
-      businessOp: 'This app would be the perfect solution to the problem that Taco Truckin’ is facing. It will not only help with the long wait times, but the features will also have other benefits for the restaurant.'
+      businessOp: 'This app would be the perfect solution to the problem that Taco Truckin’ is facing. It will not only help with the long wait times, but the features will also have other benefits for the restaurant.',
+      businessOpImg: busOpImg
     },
     research: {
       surveyRes: 'I surveyed 118 people who eat from restaurants regularly.',
@@ -327,6 +333,7 @@ const projects = [
     image: projectImg2,
     name: "Nest Quest",
     brandDesc: 'A responsive website to help you discover your dream home.',
+    styleGuideImg: style2,
     projectOverview: {
       problemStatement: 'The current housing market presents a challenge for users seeking to find their ideal home. The overwhelming amount of options and information can lead to a frustrating and time-consuming experience, with users often struggling to find suitable housing options that match their preferences and budget. To address these issues. it is necessary to have a straightforward and uncomplicated approach to finding an ideal home that makes the house-hunting process more manageable for users.',
       timeline: 'Feb. - Mar.2023',
@@ -505,6 +512,7 @@ const projects = [
     image: projectImg3,
     name: "VitalFlow",
     brandDesc: 'Vitalize Your Fitness, Go with the Flow: Achieve Peak Performance',
+    styleGuideImg: style3,
     projectOverview: {
       problemStatement: 'Many individuals struggle with maintaining a healthy and active lifestyle due to various reasons, including a lack of knowledge about proper nutrition, difficulty in finding appropriate workout routines, and difficulty in tracking progress towards their fitness goals. Moreover, the abundance of conflicting information and the overwhelming nature of maintaining a healthy lifestyle can cause people to lose motivation and give up on their goals. There is a need for a solution that can provide personalized guidance on nutrition and exercise, help individuals track their progress, and offer motivational support to help them achieve their fitness goals.',
       timeline: 'Mar. - Apr. 2023',
