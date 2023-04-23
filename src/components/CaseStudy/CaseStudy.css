@@ -57,7 +57,7 @@
 }
 
 .survey-image {
-  width: 1000px;
+  width: 90%;
 }
 
 .insights-heading,
@@ -278,7 +278,7 @@
 .journey-map-img,
 .info-arch-img,
 .midFideImg {
-  width: 1142px;
+  width: 100%;
 }
 
 .paper-wireframes-imgs {
@@ -326,8 +326,6 @@
 }
 
 .style-box {
-  display: flex;
-  justify-content: center;
 }
 
 .typography, .colors {
@@ -359,4 +357,46 @@
 .learning-desc-heading {
   text-decoration: underline;
   font-weight: 700;
+}
+
+@media screen and (max-width: 913px) {
+  .statement-specs,
+  .lowfide-imgs1,
+  .lowfide-imgs2,
+  .paper-wireframes-imgs {
+    flex-wrap: wrap;
+  }
+
+  .lowfide-imgs1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 169px;
+  row-gap: 72px;
+}
+
+.lowfide1-img {
+  width: 268px;
+}
+
+.lowfide-imgs2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 169px;
+  row-gap: 72px;
+}
+
+.lowfide2-img {
+  width: 268px;
+}
+
+.insight {
+  padding: 2rem 2rem;
+  border-radius: 24px;
+  background-color: #fff;
+}
+
+.insights {
+  padding: 1vw 3vw;
+}
+  
 }

@@ -328,7 +328,7 @@ const projects = [
     ]
   },
   {
-    layout: 'right',
+    layout: 'left',
     icon: '',
     image: projectImg2,
     name: "Nest Quest",
