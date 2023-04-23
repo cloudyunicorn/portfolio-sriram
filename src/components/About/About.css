@@ -8,6 +8,10 @@
   font-size: 36px;
 }
 
+.about__intro {
+  margin-top: 6rem;
+}
+
 .about__name {
   color: var(--clr-primary);
 }
@@ -25,7 +29,7 @@
 
 .about__desc,
 .about__contact {
-  margin-top: 2em;
+  margin-top: 4rem;
 }
 
 .about__contact {

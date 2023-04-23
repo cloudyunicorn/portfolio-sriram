@@ -5,6 +5,7 @@ import { projects, skills, contact } from '../../portfolio';
 import './Navbar.css';
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
+import pdf from '../../assets/resume.pdf'
 
 const Navbar = () => {
   // const [{ themeName, toggleTheme }] = useContext(ThemeContext)
@@ -41,7 +42,7 @@ const Navbar = () => {
         ) : null}
 
         
-          <li className="nav__list-item">
+          {/* <li className="nav__list-item">
             <HashLink
               to="/#resume"
               onClick={toggleNavList}
@@ -49,9 +50,20 @@ const Navbar = () => {
             >
               Resume
             </HashLink>
-          </li>
+          </li> */}
 
           <li className="nav__list-item">
+            <Link to={{ pathname: '/resume', state: { pdf } }}>
+              <button
+                // href="#projects"
+                // onClick={}
+                className="link link--nav"
+              >
+                Resume
+              </button>
+            </Link>
+          </li>
+          {/* <li className="nav__list-item">
             <Link to={{ pathname: '/about' }}>
               <button
                 // href="#projects"
@@ -61,7 +73,7 @@ const Navbar = () => {
                 About
               </button>
             </Link>
-          </li>
+          </li> */}
 
         {contact.email ? (
           <li className="nav__list-item">

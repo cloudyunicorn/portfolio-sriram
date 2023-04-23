@@ -1,7 +1,11 @@
 import './ProjectContainer.css';
 import { Link } from 'react-router-dom';
 
-const ProjectContainer = ({ project }) => (
+const ProjectContainer = ({ project }) => {
+  const goToTop = () => {
+    window.scrollTo(0, 0,)
+  }
+  return (
   <div className="project">
     <div
       className="project__layout"
@@ -23,7 +27,7 @@ const ProjectContainer = ({ project }) => (
           <Link to={{ pathname: '/caseStudy', state: { project } }}>
             <button
               // href="#projects"
-              // onClick={}
+              onClick={goToTop}
               className="casestudy--button"
             >
               View Case Study
@@ -33,6 +37,6 @@ const ProjectContainer = ({ project }) => (
       </div>
     </div>
   </div>
-);
+)};
 
 export default ProjectContainer;

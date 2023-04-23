@@ -99,21 +99,24 @@ export const CaseStudy = (from) => {
           </div>
         </div>
       </div>
-      <div className="insights">
-        <h3 className="insights-heading">Insights</h3>
-        <h4 className="insights-subheading">MAIN LEARNINGS</h4>
-        <div className="learnings-list">
-          {caseStudy.insights.map((ins, i) => {
-            return (
-              <div className="insight" key={uniqid()}>
-                <p className="insight-num">Insight {ins.number}</p>
-                <h5 className="insight-heading">{ins.heading}</h5>
-                <p className="insight-desc">{ins.desc}</p>
-              </div>
-            )
-          })}
-        </div>
+      <div className="insights-box">
+
+        <div className="insights">
+          <h3 className="insights-heading">Insights</h3>
+          <h4 className="insights-subheading">MAIN LEARNINGS</h4>
+          <div className="learnings-list">
+            {caseStudy.insights.map((ins, i) => {
+              return (
+                <div className="insight" key={uniqid()}>
+                  <p className="insight-num">Insight {ins.number}</p>
+                  <h5 className="insight-heading">{ins.heading}</h5>
+                  <p className="insight-desc">{ins.desc}</p>
+                </div>
+              )
+            })}
+          </div>
         <h4 className="insights-quote">{caseStudy.insightsQuote}</h4>
+      </div>
       </div>
       <div className="building-empathy">
         <h3 className="empathy-heading">Building Empathy</h3>

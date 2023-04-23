@@ -1,5 +1,6 @@
 .casestudy {
-  max-width: 1142px;
+  /* max-width: 1142px; */
+  max-width: 65vw;
 }
 
 .banner {
@@ -148,13 +149,12 @@
 .info-arch-img,
 .paper-wireframes-imgs,
 .lowfide-imgs1,
-.midFideImg,
-.ui-images {
+.midFideImg {
   margin-top: 4rem;
 }
 
 .ui-heading {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .spacing-grid {
@@ -189,15 +189,63 @@
   /* width: 100vw; */
 }
 
+.wire-heading {
+  margin-top: 6rem;
+}
+
 .insights-subheading {
   margin-bottom: 3rem;
 }
 
+.user-inter-heading {
+  font-size: 2rem;
+}
+
+/* .insights { */
+  /* background-color: #D7E9F7; */
+  /* margin-right: 20%; */
+    /* max-width: 100%; */
+    /* padding: 5rem 20rem; */
+    /* padding: 5rem 20rem; */
+    /* position: relative; */
+    /* margin-left: calc(-50vw + 49%); */
+    /* margin-left: -50vw;
+    margin-right: -50vw;
+    left: 49%;
+    right: 49%; */
+/* } */
+
+/* .insights-box {
+  background-color: #D7E9F7;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+    margin-right: -50vw;
+    left: 49%;
+    right: 49%;
+} */
 .insights {
   background-color: #D7E9F7;
-  margin-left: -240px;
-    width: 100vw;
-    padding: 5rem 20rem;
+  /* margin-right: 20%; */
+    max-width: 100%;
+    /* padding: 5rem 20rem; */
+    padding: 5vw 17.5vw;
+    /* position: relative; */
+    /* margin-left: calc(-50vw + 49%); */
+    /* margin-left: -50vw;
+    margin-right: -50vw;
+    left: 49%;
+    right: 49%; */
+}
+
+.insights-box {
+  background-color: #D7E9F7;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+    margin-right: -50vw;
+    left: 49%;
+    right: 49%;
 }
 
 .insight {
@@ -269,6 +317,7 @@
   flex-wrap: wrap;
   column-gap: 169px;
   row-gap: 72px;
+  margin-top: 3rem;
   
 }
 

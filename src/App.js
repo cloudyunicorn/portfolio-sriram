@@ -7,8 +7,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import './App.css';
 import {Home} from "./components/Home/Home";
 import {CaseStudy} from "./components/CaseStudy/CaseStudy";
-import About from "./components/About/About";
-import { AboutPage } from "./components/AboutPage/AboutPage";
+import { Resume } from "./components/Resume/Resume";
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);
@@ -20,7 +19,7 @@ const App = () => {
 
       
           <Switch>
-            <Route path="/about" component={AboutPage} />
+            <Route path="/resume" component={Resume} />
             <Route path="/casestudy" component={CaseStudy} />
             <Route path="/" component={Home} />
 

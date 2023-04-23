@@ -100,12 +100,12 @@ import busOpImg from './assets/Case Study 1- Taco Truckin/Business Opportunities
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: '#Home',
-  title: 'SV.',
+  title: 'SVR.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'Sriram Venkat',
+  name: 'Sriram Venkat Rangan',
   role: 'UI/UX Designer',
   description:
     'Based in New Delhi, India, with a background in Industrial Design and Information Systems, I connect the dots and provide thoughtful design solutions by focusing on strategy. I also make sure those experiences are a little bit fun.',
