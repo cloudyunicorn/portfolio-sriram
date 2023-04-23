@@ -101,3 +101,18 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 913px) {
+  .project__image {
+    width: 85vw;
+  }
+  .project__layout {
+    flex-direction: column;
+  }
+  .project-textbox {
+    gap: 0;
+  }
+  .casestudy--button {
+    margin-top: 2rem;
+  }
+}

@@ -5,7 +5,7 @@
 }
 
 .about h1 {
-  font-size: 36px;
+  font-size: 3rem;
 }
 
 .about__intro {
@@ -51,7 +51,7 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
+    align-items: center;
     margin-top: 2em;
   }
 }

@@ -104,7 +104,7 @@ const Navbar = () => {
         className="btn btn--icon nav__hamburger"
         aria-label="toggle navigation"
       >
-        {showNavList ? <CloseIcon /> : <MenuIcon />}
+        {showNavList ? <CloseIcon className="close-icon"/> : <MenuIcon className="menu-icon" />}
       </button>
     </nav>
   );

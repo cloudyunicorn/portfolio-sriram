@@ -9,11 +9,11 @@ const ProjectContainer = ({ project }) => {
   <div className="project">
     <div
       className="project__layout"
-      style={
-        project.layout === 'right'
-          ? { flexDirection: 'row-reverse' }
-          : { flexDirection: 'row' }
-      }
+      // style={
+      //   project.layout === 'right'
+      //     ? { flexDirection: 'row-reverse' }
+      //     : { flexDirection: 'row' }
+      // }
     >
       <img src={project.image} alt="Product" className="project__image" />
 

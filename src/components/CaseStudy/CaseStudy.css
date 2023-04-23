@@ -398,5 +398,13 @@
 .insights {
   padding: 1vw 3vw;
 }
+
+.casestudy {
+  max-width: 85vw;
+}
+
+.style-guide-img {
+  width: 100%;
+}
   
 }

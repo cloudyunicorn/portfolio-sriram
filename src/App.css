@@ -157,3 +157,7 @@ main {
     margin-top: 4em;
   }
 }
+
+@media screen and (max-width: 913px) {
+
+}

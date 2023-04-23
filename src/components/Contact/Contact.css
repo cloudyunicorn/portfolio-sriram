@@ -13,3 +13,9 @@
 .about-button {
   font-size: 1.5rem !important;
 }
+
+@media screen and (max-width: 913px) {
+  .contact-desc {
+    width: 85vw;
+  }
+}
