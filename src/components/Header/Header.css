@@ -1,7 +1,7 @@
 .header {
   height: 6em;
   /* max-width: 1200px; */
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
   position: sticky;
@@ -10,7 +10,7 @@
 }
 
 .initials {
-  margin-left: 2rem;
+  margin-left: 4rem;
   font-size: 2rem;
 }
 

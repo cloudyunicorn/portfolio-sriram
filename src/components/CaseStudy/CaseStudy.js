@@ -99,8 +99,7 @@ export const CaseStudy = (from) => {
           </div>
         </div>
       </div>
-      <div className="insights-box">
-
+      <div className="insights-box" style={{ backgroundColor: `${caseStudy.name !== 'Nest Quest' ? '#d7e9f7' : '#D7F7DE'}` }}>
         <div className="insights">
           <h3 className="insights-heading">Insights</h3>
           <h4 className="insights-subheading">MAIN LEARNINGS</h4>
@@ -116,7 +115,7 @@ export const CaseStudy = (from) => {
             })}
           </div>
         <h4 className="insights-quote">{caseStudy.insightsQuote}</h4>
-      </div>
+        </div>
       </div>
       <div className="building-empathy">
         <h3 className="empathy-heading">Building Empathy</h3>
@@ -168,13 +167,11 @@ export const CaseStudy = (from) => {
           </div>
         }
         <div className="info-arch">
-          {caseStudy.name === ('Taco Trukin’' || 'Nest Quest') &&
-            <h4 className="wire-heading">LOW FIDELITY WIREFRAMES</h4>
-          }
+          <h4 className="wire-heading">LOW FIDELITY WIREFRAMES</h4>
           <p className="info-arch-desc">
-            {caseStudy.concept.paperWireframes}
+            {caseStudy.concept.lowFidWireframes}
           </p>
-          {caseStudy.name === ('Taco Trukin’' || 'VitalFlow') &&
+          {caseStudy.name !== 'Nest Quest' &&
             <div className="lowfide-imgs1">
             {caseStudy.concept.lowFideImg.map((img, i) => {
               return (
@@ -185,11 +182,14 @@ export const CaseStudy = (from) => {
           }
           {caseStudy.name === 'Nest Quest' &&
             <div className="lowfide-imgs2">
-            {caseStudy.concept.lowFideImg.map((img, i) => {
+            {/* {caseStudy.concept.lowFideImg.map((img, i) => {
               return (
                 <img src={img} alt="lowFide" key={uniqid()} className="lowfide2-img" />
               )
-            })}
+            })} */}
+            {
+              <img src={caseStudy.concept.lowFideSingle} alt="Low Fidelty" className="lowfide2-single" />
+            }
             </div>
           }
         </div>
@@ -213,11 +213,20 @@ export const CaseStudy = (from) => {
                 <h5 className="ui-heading">{ui.heading}</h5>
                 <p className="ui-desc">{ui.uiDesc}</p>
                 <div className="ui-images">
-                  {ui.uiImages.map((img, i) => {
+                  {caseStudy.name !== 'Nest Quest' && 
+                  ui.uiImages.map((img, i) => {
                     return (
                       <img src={img} alt="UI" className="ui-img" key={uniqid()}/>
                     )
                   })}
+                  <div className="ui-images2">
+                    {caseStudy.name === 'Nest Quest' && 
+                    ui.uiImages.map((img, i) => {
+                      return (
+                          <img src={img} alt="UI" className="ui-img2" key={uniqid()}/>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
             )

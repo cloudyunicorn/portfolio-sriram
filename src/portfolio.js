@@ -37,6 +37,7 @@ import lowFide33 from './assets/Case Study 3- VitalFlow/Low fidelity wireframes/
 import lowFide34 from './assets/Case Study 3- VitalFlow/Low fidelity wireframes/With shadows/Progress photos.png';
 import lowFide35 from './assets/Case Study 3- VitalFlow/Low fidelity wireframes/With shadows/Onboarding 32.png';
 import lowFide36 from './assets/Case Study 3- VitalFlow/Low fidelity wireframes/With shadows/Onboarding 33.png';
+import lowFide2 from './assets/Case Study 2- Nest Quest/Low-Fidelity Wireframes/With Shadows/Wireframes with Shadow.png';
 import midFide from './assets/Case Study 1- Taco Truckin/Mid Fidelity Wireframe and Prototype.png';
 import sitemap2 from './assets/Case Study 2- Nest Quest/Sitemap.png';
 import uiImage111 from './assets/Case Study 1- Taco Truckin/User Interface/Splash and Login Screen/Frame 42.png';
@@ -448,6 +449,7 @@ const projects = [
         lowFide24,
         lowFide25,
       ],
+      lowFideSingle: lowFide2,
       midFidWireframes: ''
     },
     finalDesign: [
@@ -647,7 +649,7 @@ const projects = [
       infoArchImg: infoArch3,
       paperWireframes: '',
       lowFidWireframes: 'Using the information architecture of the app, and drawing on the insights gained from the white paper research and user interviews, I translated the findings into a visual representation of the app\'s layout and functionality. These wireframes provided a basic structure and organization of the app\'s content and features, helping me to map out the user flow and navigation.',
-      loeFideImg: [
+      lowFideImg: [
         lowFide31,
         lowFide32,
         lowFide33,
