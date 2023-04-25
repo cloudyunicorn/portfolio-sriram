@@ -82,6 +82,10 @@
   font-size: 2rem;
 }
 
+.background-subheading {
+  font-size: 2rem;
+}
+
 .insight-heading,
 .ui-heading,
 .colors-heading,
@@ -378,6 +382,12 @@
   font-weight: 700;
 }
 
+.prototype-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 12rem;
+}
+
 @media screen and (max-width: 913px) {
   .statement-specs,
   .lowfide-imgs1,
@@ -415,7 +425,7 @@
   }
 
   .insights {
-    padding: 1vw 3vw;
+    padding: 8vw 3vw;
   }
 
   .casestudy {

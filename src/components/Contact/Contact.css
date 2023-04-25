@@ -1,17 +1,23 @@
 .contact {
   flex-direction: column;
-  margin-top: 8rem;
+  margin-top: 15rem;
 }
 
 .contact-desc {
   font-size: 1.5rem;
-  width: 600px;
+  width: 750px;
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .about-button {
   font-size: 1.5rem !important;
+  border-radius: 15px;
+  font-weight: 600;
+  background-color: rgb(235, 235, 235);
+  color: #333333;
+  box-shadow: none !important;
+  padding: 12px 48px;
 }
 
 @media screen and (max-width: 913px) {

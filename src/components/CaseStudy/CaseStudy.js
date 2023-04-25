@@ -48,16 +48,16 @@ export const CaseStudy = (from) => {
       <div className="background">
         <h3 className="background-heading">Background</h3>
         <div className="hypothesis">
-          <h4>HYPOTHESIS</h4>
+          <h4 className="background-subheading">HYPOTHESIS</h4>
           <p className="bg-desc">{caseStudy.background.hypothesis}</p>
         </div>
         <div className="why">
-          <h4>WHY?</h4>
+          <h4 className="background-subheading">WHY?</h4>
           <p className="bg-desc">{caseStudy.background.why}</p>
         </div>
         {caseStudy.name === 'Taco Trukin’' && 
           <div className="business">
-            <h4>BUSINESS OPPORTUNITIES</h4>
+            <h4 className="background-subheading">BUSINESS OPPORTUNITIES</h4>
             <p className="bg-desc">{caseStudy.background.businessOp}</p>
             <div className="bus-op-box">
               <img src={caseStudy.background.businessOpImg} alt="Business oppurtunity" className="bus-op-img" />
@@ -114,7 +114,7 @@ export const CaseStudy = (from) => {
               )
             })}
           </div>
-        <h4 className="insights-quote">{caseStudy.insightsQuote}</h4>
+        <h4 className="insights-quote">&#10077;{caseStudy.insightsQuote}&#10078;</h4>
         </div>
       </div>
       <div className="building-empathy">
@@ -262,6 +262,12 @@ export const CaseStudy = (from) => {
           <p className="spacing-desc">{caseStudy.spacing}</p> */}
         </div>
       </div>
+      <div className="figma-prototype">
+        <h4 className="prototype-heading">
+          Prototype
+        </h4>
+        <iframe style={{border: "0px solid rgba(255, 255, 255, 1)"}} width="1390" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3DHyoxQunw9osgtVYtU2m7%2FTaco-Truckin---Google-UX-Design-Course%3Fnode-id%3D792-542%26scaling%3Dscale-down%26page-id%3D775%253A149%26starting-point-node-id%3D960%253A3370%26hide-ui%3D1" ></iframe>
+      </div>
       <div className="summary">
         <h3 className="summary-heading">Summary</h3>
         <h4 className="deliverables">DELIVERABLES</h4>
@@ -283,7 +289,6 @@ export const CaseStudy = (from) => {
         </div>
         }
       </div>
-      <h3 className="casestudy-end">Thank You</h3>
     </div>
   );
 };

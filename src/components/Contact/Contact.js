@@ -11,9 +11,15 @@ const Contact = () => {
         Looking for a designer to help you meet your uers' needs? Need help establishing good design and research practices within your organization? I can help.
       </p>
       <a href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline about-button'>
+        {/* <span type='button' className='btn about-button'>
           Contact Me
-        </span>
+        </span> */}
+        <button
+              // href="#projects"
+              className="casestudy--button about-button"
+            >
+              contact me
+            </button>
       </a>
     </section>
   )

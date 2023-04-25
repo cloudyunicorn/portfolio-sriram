@@ -6,7 +6,7 @@ const Footer = () => (
       href=''
       className='link footer__link'
     >
-      Created By Sriram Venkat
+      ©2023 Sriram Venkat Rangan. All Rights Reserved.
     </a>
   </footer>
 )
