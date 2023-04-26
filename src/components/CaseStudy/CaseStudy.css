@@ -325,7 +325,7 @@
 .ui-images {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 169px;
+  column-gap: 8rem;
   row-gap: 72px;
   margin-top: 3rem;
 }
@@ -386,6 +386,10 @@
   font-size: 3rem;
   text-align: center;
   margin-top: 12rem;
+}
+
+.figma-embed {
+  width: 100%;
 }
 
 @media screen and (max-width: 913px) {

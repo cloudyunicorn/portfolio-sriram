@@ -266,7 +266,7 @@ export const CaseStudy = (from) => {
         <h4 className="prototype-heading">
           Prototype
         </h4>
-        <iframe style={{border: "0px solid rgba(255, 255, 255, 1)"}} width="1390" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3DHyoxQunw9osgtVYtU2m7%2FTaco-Truckin---Google-UX-Design-Course%3Fnode-id%3D792-542%26scaling%3Dscale-down%26page-id%3D775%253A149%26starting-point-node-id%3D960%253A3370%26hide-ui%3D1" ></iframe>
+        <iframe style={{border: "0px solid rgba(255, 255, 255, 1)"}} width="1390" height="1000" className="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3DHyoxQunw9osgtVYtU2m7%2FTaco-Truckin---Google-UX-Design-Course%3Fnode-id%3D792-542%26scaling%3Dscale-down%26page-id%3D775%253A149%26starting-point-node-id%3D960%253A3370%26hide-ui%3D1" ></iframe>
       </div>
       <div className="summary">
         <h3 className="summary-heading">Summary</h3>
