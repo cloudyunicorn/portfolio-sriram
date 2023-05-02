@@ -10,7 +10,7 @@ export const CaseStudy = (from) => {
   var banner;
   if (caseStudy.name === 'Taco Trukin’') {
     banner = Banner1;
-  } else if (caseStudy.name === 'Nest Quest') {
+  } else if (caseStudy.name === 'NestQuest') {
     banner = Banner2;
   } else {
     banner = Banner3;
@@ -99,7 +99,7 @@ export const CaseStudy = (from) => {
           </div>
         </div>
       </div>
-      <div className="insights-box" style={{ backgroundColor: `${caseStudy.name !== 'Nest Quest' ? '#d7e9f7' : '#D7F7DE'}` }}>
+      <div className="insights-box" style={{ backgroundColor: `${caseStudy.name !== 'NestQuest' ? '#d7e9f7' : '#D7F7DE'}` }}>
         <div className="insights">
           <h3 className="insights-heading">Insights</h3>
           <h4 className="insights-subheading">MAIN LEARNINGS</h4>
@@ -145,7 +145,7 @@ export const CaseStudy = (from) => {
           <p className="info-arch-desc">{caseStudy.concept.infoArch}</p>
           <img src={caseStudy.concept.infoArchImg} alt="" className="info-arch-img" />
         </div>
-        {caseStudy.name === 'Nest Quest' && 
+        {caseStudy.name === 'NestQuest' && 
           <div className="sitemap">
             <h4 className="sitemap-heading">SITEMAP</h4>
             <img src={caseStudy.concept.sitemap} alt="" className="info-arch-img" />
@@ -171,7 +171,7 @@ export const CaseStudy = (from) => {
           <p className="info-arch-desc">
             {caseStudy.concept.lowFidWireframes}
           </p>
-          {caseStudy.name !== 'Nest Quest' &&
+          {caseStudy.name !== 'NestQuest' &&
             <div className="lowfide-imgs1">
             {caseStudy.concept.lowFideImg.map((img, i) => {
               return (
@@ -180,7 +180,7 @@ export const CaseStudy = (from) => {
             })}
             </div>
           }
-          {caseStudy.name === 'Nest Quest' &&
+          {caseStudy.name === 'NestQuest' &&
             <div className="lowfide-imgs2">
             {/* {caseStudy.concept.lowFideImg.map((img, i) => {
               return (
@@ -213,7 +213,7 @@ export const CaseStudy = (from) => {
                 <h5 className="ui-heading">{ui.heading}</h5>
                 <p className="ui-desc">{ui.uiDesc}</p>
                 <div className="ui-images">
-                  {caseStudy.name !== 'Nest Quest' && 
+                  {caseStudy.name !== 'NestQuest' && 
                   ui.uiImages.map((img, i) => {
                     return (
                       <img src={img} alt="UI" className="ui-img" key={uniqid()}/>
@@ -266,7 +266,13 @@ export const CaseStudy = (from) => {
         <h4 className="prototype-heading">
           Prototype
         </h4>
-        <iframe style={{border: "0px solid rgba(255, 255, 255, 1)"}} width="1390" height="1000" className="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3DHyoxQunw9osgtVYtU2m7%2FTaco-Truckin---Google-UX-Design-Course%3Fnode-id%3D792-542%26scaling%3Dscale-down%26page-id%3D775%253A149%26starting-point-node-id%3D960%253A3370%26hide-ui%3D1" ></iframe>
+        {caseStudy.name === 'Taco Trukin’' && <iframe style={{border: "0px solid rgba(255, 255, 255, 1)"}} width="1390" height="1000" className="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3DHyoxQunw9osgtVYtU2m7%2FTaco-Truckin---Google-UX-Design-Course%3Fnode-id%3D792-542%26scaling%3Dscale-down%26page-id%3D775%253A149%26starting-point-node-id%3D960%253A3370%26hide-ui%3D1" ></iframe>}
+        {caseStudy.name === 'NestQuest' && 
+        <div className="desktop-mobile-figma">
+          <iframe style={{border: "0px solid rgba(0, 0, 0, 0.1)"}} width="1390" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpUoif52bqYTUt5bSUmv9Iy%2FNestQuest%3Fpage-id%3D256%253A2468%26node-id%3D256-2469%26viewport%3D730%252C459%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D256%253A2469%26hide-ui%3D1"></iframe>
+          <iframe style={{border: "0px solid rgba(0, 0, 0, 0.1)"}} width="1390" height="1000" className="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fs16r6MuHirQW6hZllegB3L%2FNestQuest-Mobile-Only%3Fpage-id%3D256%253A2468%26node-id%3D308-1389%26viewport%3D741%252C566%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D308%253A1389%26hide-ui%3D1"></iframe>
+        </div>}
+        {caseStudy.name === 'VitalFlow' && <iframe style={{border: "0px solid rgba(0, 0, 0, 0.1)"}} width="1390" height="1000" className="figma-embed" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F2U0b2CgBIpA8lcexet8SNW%2FVitalFlow%3Fpage-id%3D232%253A1159%26node-id%3D232-1342%26viewport%3D930%252C553%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D232%253A1342%26hide-ui%3D1"></iframe>}
       </div>
       <div className="summary">
         <h3 className="summary-heading">Summary</h3>

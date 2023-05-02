@@ -97,6 +97,8 @@ import style2 from './assets/Case Study 2- Nest Quest/Style Guide.png';
 import style3 from './assets/Case Study 3- VitalFlow/Style Guide.png';
 import busOpImg from './assets/Case Study 1- Taco Truckin/Business Opportunities.png';
 
+import dp from './assets/profile - pic/Photo.png';
+
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -107,9 +109,10 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Sriram Venkat Rangan',
+  dp: dp,
   role: 'UI/UX Designer',
   description:
-    'Based in New Delhi, India, with a background in Industrial Design and Information Systems, I connect the dots and provide thoughtful design solutions by focusing on strategy. I also make sure those experiences are a little bit fun.',
+    'I’m a UX/UI designer passionate about crafting useful, delightful and engaging digital experiences. I am very enthusiastic about solving people’s problems and I love working with kind people. Currently living in Delhi, India. I design products that help people get things done.',
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/sriram-venkat-rangan-74046414a/',
@@ -126,7 +129,7 @@ const projects = [
     layout: 'left',
     icon: '',
     image: projectImg1,
-    name: "Taco Trukin’",
+    name: "Taco Truckin’",
     brandDesc: 'A mobile app that helps the restaurant chain adapt to post-covid operations.',
     styleGuideImg: style1,
     projectOverview: {
@@ -332,8 +335,8 @@ const projects = [
     layout: 'left',
     icon: '',
     image: projectImg2,
-    name: "Nest Quest",
-    brandDesc: 'A responsive website to help you discover your dream home.',
+    name: "NestQuest",
+    brandDesc: 'A responsive website that assists users in finding their dream home with no hassle.',
     styleGuideImg: style2,
     projectOverview: {
       problemStatement: 'The current housing market presents a challenge for users seeking to find their ideal home. The overwhelming amount of options and information can lead to a frustrating and time-consuming experience, with users often struggling to find suitable housing options that match their preferences and budget. To address these issues. it is necessary to have a straightforward and uncomplicated approach to finding an ideal home that makes the house-hunting process more manageable for users.',
@@ -513,7 +516,7 @@ const projects = [
     icon: '',
     image: projectImg3,
     name: "VitalFlow",
-    brandDesc: 'Vitalize Your Fitness, Go with the Flow: Achieve Peak Performance',
+    brandDesc: 'A mobile app to guide and assist users in achieving their fitness and nutrition goals.',
     styleGuideImg: style3,
     projectOverview: {
       problemStatement: 'Many individuals struggle with maintaining a healthy and active lifestyle due to various reasons, including a lack of knowledge about proper nutrition, difficulty in finding appropriate workout routines, and difficulty in tracking progress towards their fitness goals. Moreover, the abundance of conflicting information and the overwhelming nature of maintaining a healthy lifestyle can cause people to lose motivation and give up on their goals. There is a need for a solution that can provide personalized guidance on nutrition and exercise, help individuals track their progress, and offer motivational support to help them achieve their fitness goals.',

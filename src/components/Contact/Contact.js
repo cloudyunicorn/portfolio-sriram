@@ -8,7 +8,7 @@ const Contact = () => {
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Feel free to reach out.</h2>
       <p className="contact-desc">
-        Looking for a designer to help you meet your uers' needs? Need help establishing good design and research practices within your organization? I can help.
+        If you are interested in my work and would like to connect with me, feel free to reach out. I am a friendly and collaborative individual who enjoys engaging with others.
       </p>
       <a href={`mailto:${contact.email}`}>
         {/* <span type='button' className='btn about-button'>
@@ -18,7 +18,7 @@ const Contact = () => {
               // href="#projects"
               className="casestudy--button about-button"
             >
-              contact me
+              Contact me
             </button>
       </a>
     </section>

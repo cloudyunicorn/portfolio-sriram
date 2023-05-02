@@ -53,15 +53,13 @@ const Navbar = () => {
           </li> */}
 
           <li className="nav__list-item">
-            <Link to={{ pathname: '/resume', state: { pdf } }}>
-              <button
-                // href="#projects"
+              <a
+                href="https://drive.google.com/file/d/1mmT066-LDrzR1_vTwzd9CWVf-j1xt7c-/view?usp=share_link"
                 // onClick={}
                 className="link link--nav"
               >
                 Resume
-              </button>
-            </Link>
+              </a>
           </li>
           {/* <li className="nav__list-item">
             <Link to={{ pathname: '/about' }}>
