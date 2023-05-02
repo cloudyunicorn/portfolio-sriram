@@ -15,8 +15,8 @@
   --clr-bg-alt: #fff;
   --clr-fg: #333333;
   /* --clr-fg-alt: #444; */
-  --clr-fg-alt: #0a1e2f;
-  --clr-primary: #313334;
+  --clr-fg-alt: #333333;
+  --clr-primary: #333333;
   /* --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
