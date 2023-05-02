@@ -405,6 +405,14 @@
 
 }
 
+.research {
+  padding-top: 4rem;
+}
+
+.white-paper-research {
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 913px) {
   .statement-specs,
   .lowfide-imgs1,
