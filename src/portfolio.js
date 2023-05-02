@@ -127,7 +127,7 @@ const projects = [
     icon: '',
     image: projectImg1,
     name: "Taco Trukin’",
-    brandDesc: 'Taco Truckin Transporting the taste of Mexico to everyone',
+    brandDesc: 'A mobile app that helps the restaurant chain adapt to post-covid operations.',
     styleGuideImg: style1,
     projectOverview: {
       problemStatement: 'Following the coronavirus lockdown, online food ordering has become a lifeline for restaurants across the globe. Taco Truckin’, a Mexican food truck chain is looking for a way to combat the loss of its customer base due to long queues and the lack of home delivery options.',

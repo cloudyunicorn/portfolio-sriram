@@ -233,7 +233,7 @@ export const CaseStudy = (from) => {
           })}
         </div>
         <div className="style-guide">
-          {/* <h4 className="style-heading">STYLE GUIDE</h4> */}
+          <h4 className="style-heading">STYLE GUIDE</h4>
           <div className="style-box">
             <img src={caseStudy.styleGuideImg} alt="style guide"  className="style-guide-img"/>
             {/* <div className="colors">
