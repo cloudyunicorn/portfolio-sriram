@@ -8,7 +8,7 @@ import './CaseStudy.css';
 export const CaseStudy = (from) => {
   const caseStudy = from.location.state.project;
   var banner;
-  if (caseStudy.name === 'Taco Trukin’') {
+  if (caseStudy.name === 'Taco Truckin’') {
     banner = Banner1;
   } else if (caseStudy.name === 'NestQuest') {
     banner = Banner2;
@@ -57,7 +57,7 @@ export const CaseStudy = (from) => {
           <h4 className="background-subheading">WHY?</h4>
           <p className="bg-desc">{caseStudy.background.why}</p>
         </div>
-        {caseStudy.name === 'Taco Trukin’' && (
+        {caseStudy.name === 'Taco Truckin’' && (
           <div className="business">
             <h4 className="background-subheading">BUSINESS OPPORTUNITIES</h4>
             <p className="bg-desc">{caseStudy.background.businessOp}</p>
@@ -217,7 +217,7 @@ export const CaseStudy = (from) => {
             />
           </div>
         )}
-        {caseStudy.name === 'Taco Trukin’' && (
+        {caseStudy.name === 'Taco Truckin’' && (
           <div className="info-arch">
             <h4 className="wire-heading">PAPER WIREFRAMES</h4>
             <p className="info-arch-desc">
@@ -271,7 +271,7 @@ export const CaseStudy = (from) => {
             </div>
           )}
         </div>
-        {caseStudy.name === 'Taco Trukin’' && (
+        {caseStudy.name === 'Taco Truckin’' && (
           <div className="info-arch">
             <h4 className="wire-heading">
               MID-FIDELITY WIREFRAMES AND PROTOTYPE
@@ -362,7 +362,7 @@ export const CaseStudy = (from) => {
       </div>
       <div className="figma-prototype">
         <h4 className="prototype-heading">Prototype</h4>
-        {caseStudy.name === 'Taco Trukin’' && (
+        {caseStudy.name === 'Taco Truckin’' && (
           <iframe
             style={{ border: '0px solid rgba(255, 255, 255, 1)' }}
             width="1390"
