@@ -309,7 +309,7 @@ export const CaseStudy = (from) => {
                       );
                     })}
                   <div className="ui-images2">
-                    {caseStudy.name === 'Nest Quest' &&
+                    {caseStudy.name === 'NestQuest' &&
                       ui.uiImages.map((img, i) => {
                         return (
                           <img
