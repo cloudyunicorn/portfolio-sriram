@@ -379,12 +379,16 @@
 }
 
 .learnings li {
-  list-style-type: disc;
+  /* list-style-type: disc; */
 }
 
 .learning-desc-heading {
   text-decoration: underline;
   font-weight: 700;
+}
+
+.learning-desc {
+  margin-top: 2rem;
 }
 
 .prototype-heading {

@@ -130,7 +130,9 @@ const projects = [
     icon: '',
     image: projectImg1,
     name: "Taco Truckin’",
-    brandDesc: 'A mobile app that helps the restaurant chain adapt to post-covid operations.',
+    nameDesc: 'Adjusting to the new operational landscape post-covid',
+    brandDesc: 'Designing an online ordering app for a restaurant chain.',
+    projectTags: 'Research / UX / UI',
     styleGuideImg: style1,
     projectOverview: {
       problemStatement: 'Following the coronavirus lockdown, online food ordering has become a lifeline for restaurants across the globe. Taco Truckin’, a Mexican food truck chain is looking for a way to combat the loss of its customer base due to long queues and the lack of home delivery options.',
@@ -318,16 +320,13 @@ const projects = [
     deliverables: 'Designed and prototyped screens illustrating the concept of a mobile app for Taco Truckin’.',
     learnings: [
       {
-        heading: 'User-centered Design',
-        desc: 'One of the key learnings from this UX design project is the importance of user-centred design. By prioritizing the user experience, I was able to create a product that not only meets the needs of the users but also creates a positive and memorable experience. This learning is crucial in creating successful products that are not only functional but also delightful to use.'
+        desc: 'As my first UX design project, creating a mobile ordering app for a food truck chain has been a valuable experience. One of the key learnings from this project is the importance of iterating and refining the design multiple times. Through over four attempts and six iterations in Figma, I realised the significance of constantly evaluating and improving the design based on feedback and testing. This iterative process helped me to fine-tune the app\'s usability, accessibility, and overall user experience, resulting in a more polished and effective product.'
       },
       {
-        heading: 'Iterating',
-        desc: 'During the initial stages of the project, I explored various options to find the right solution for my users. It took me more than four attempts to get it right, and I had to re-iterate my Figma file over six times to ensure that every aspect of the app was designed thoughtfully. However, this process has taught me the importance of adhering to the WCAG standards in the future.'
+        desc: 'Furthermore, effective communication played a critical role in the success of this project. Collaborating with my mentor and fellow UX designers gave me valuable feedback and insights that helped me refine my ideas and make informed design decisions. This experience highlighted the importance of clear communication, active listening, and incorporating feedback into the design process to achieve the best possible outcomes.'
       },
       {
-        heading: 'Communication',
-        desc: 'Effective communication was a crucial lesson I learned during the case study process. Collaborating with my mentor and other UX designers provided me with valuable feedback that allowed me to refine my ideas. It became clear that communication plays a critical role in achieving successful outcomes.'
+        desc: 'Overall, this first UX project has been a valuable learning experience, helping me develop essential skills in user-centred design, iteration, and effective communication. I look forward to applying these learnings to future UX projects, creating innovative and user-friendly products that make a positive impact on users\' lives.'
       },
     ]
   },
@@ -336,7 +335,9 @@ const projects = [
     icon: '',
     image: projectImg2,
     name: "NestQuest",
-    brandDesc: 'A responsive website that assists users in finding their dream home with no hassle.',
+    nameDesc: 'An approach for simplifying the house hunting process',
+    brandDesc: ' A responsive website that assists in the house hunting process.',
+    projectTags: 'Research / UX / UI / Responsive Website',
     styleGuideImg: style2,
     projectOverview: {
       problemStatement: 'The current housing market presents a challenge for users seeking to find their ideal home. The overwhelming amount of options and information can lead to a frustrating and time-consuming experience, with users often struggling to find suitable housing options that match their preferences and budget. To address these issues. it is necessary to have a straightforward and uncomplicated approach to finding an ideal home that makes the house-hunting process more manageable for users.',
@@ -502,12 +503,7 @@ const projects = [
     deliverables: 'Designed and prototyped responsive screens illustrating the concept of a house hunting website.',
     learnings: [
       {
-        heading: 'Responsive Design',
-        desc: ' Designing websites with consideration for factors such as screen size, interaction, functionality, and content layout is crucial to ensure a seamless user experience on all devices.',
-      },
-      {
-        heading: 'Feedback',
-        desc: 'I have learned that feedback is very important while working. We tend to get caught up in our own ideas and requesting feedback from people is the best way to make sure that our ideas match the users\' needs.',
+        desc: 'I have gained valuable insights into the importance of responsive design and feedback in creating a user-centric solution. Throughout the process of designing the website, I learned that prioritizing responsive design is essential for creating a seamless experience on all devices. Furthermore, I discovered that feedback is critical to ensure that my ideas match the needs of the users. By seeking feedback from my mentor, fellow UX designers, and most importantly, the users, I was able to understand the needs and expectations for the website and incorporate them into the design. Overall, the project provided me with a deeper understanding of the importance of responsive design and feedback in UX Design, which will guide me in future projects.',
       },
     ]
   },
@@ -516,7 +512,9 @@ const projects = [
     icon: '',
     image: projectImg3,
     name: "VitalFlow",
-    brandDesc: 'A mobile app to guide and assist users in achieving their fitness and nutrition goals.',
+    nameDesc: 'Increasing accessibility to nutrition and fitness',
+    brandDesc: 'A mobile app to help users manage their nutrition and fitness goals.',
+    projectTags: 'Research / UX / UI',
     styleGuideImg: style3,
     projectOverview: {
       problemStatement: 'Many individuals struggle with maintaining a healthy and active lifestyle due to various reasons, including a lack of knowledge about proper nutrition, difficulty in finding appropriate workout routines, and difficulty in tracking progress towards their fitness goals. Moreover, the abundance of conflicting information and the overwhelming nature of maintaining a healthy lifestyle can cause people to lose motivation and give up on their goals. There is a need for a solution that can provide personalized guidance on nutrition and exercise, help individuals track their progress, and offer motivational support to help them achieve their fitness goals.',
@@ -735,7 +733,14 @@ const projects = [
     typography: 'Poppins',
     spacing: 'I chose a 32px margin for my UX design app to ensure an aesthetically pleasing spacing throughout the interface. The margin creates a balanced layout by providing ample breathing space between different elements, such as buttons, text, and images. This consistent spacing aligns with industry standards and best practices, enhancing the visual appeal and usability of the app.\nFor the grid spacing in my app, I opted for the red square method. I utilized squares with multiples of 8px, providing a consistent and balanced layout. Additionally, I incorporated a 4px square for smaller spaces, ensuring finer alignment and precision. ',
     deliverables: 'Conducted and evaluated user research, and designed and prototyped a mobile app that takes care of users\' nutrition and fitness goals by providing a customized plan, tracking their progress and holding them accountable when needed.',
-    learnings: []
+    learnings: [
+      {
+        desc: 'Throughout the designing of VitalFlow, I learned that empathy and personalization are essential in creating an effective user-focused solution. Users have unique needs and requirements, and by understanding their goals and challenges, I was able to design an app that catered to their individual fitness and nutrition needs. Additionally, I found that it was crucial to provide the different features that users look for to achieve their goals. From having an accountability partner to tracking their weight every day, there are various methods that people use during their journey. It was crucial to find out about those methods and attempt to integrate them into the app.'
+      },
+      {
+        desc: 'It was surprising to learn that personalization is something that many fitness apps don\'t offer, despite its importance in helping users achieve their fitness goals. By providing personalized recommendations and adapting to individual needs, I was able to create an app that truly resonated with users and helped them achieve their health and fitness objectives. Overall, this project has taught me that understanding user needs and providing personalized features are key to creating a successful fitness and nutrition app that stands out from the crowd and makes a meaningful impact on users\' lives.'
+      }
+    ]
   },
 ]
 

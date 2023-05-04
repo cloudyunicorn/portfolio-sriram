@@ -15,12 +15,15 @@ const ProjectContainer = ({ project }) => {
       //     : { flexDirection: 'row' }
       // }
     >
-      <img src={project.image} alt="Product" className="project__image" />
+      <div className="project-image-container">
+
+        <img src={project.image} alt="Product" className="project__image" />
+      </div>
 
       <div className="project__text">
         <div className="project-textbox">
-          <p className="project-skill">{project.projectOverview.role}</p>
-          <p className="project-name">{project.name}</p>
+          <p className="project-skill">{project.projectTags}</p>
+          <p className="project-name">{project.name} - {project.nameDesc}</p>
           <p className="project-intro">{project.brandDesc}</p>
         </div>
         <div className="link--casestudy">

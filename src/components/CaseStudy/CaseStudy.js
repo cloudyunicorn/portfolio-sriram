@@ -132,10 +132,10 @@ export const CaseStudy = (from) => {
             {caseStudy.research.userInt.head2}
           </h5>
           <div className="heading-desc">
-            {caseStudy.research.userInt.head1Desc.map((hd1, i) => {
+            {caseStudy.research.userInt.head2Desc.map((hd2, i) => {
               return (
                 <p className="desc-point" key={uniqid()}>
-                  • {hd1.point}
+                  • {hd2.point}
                 </p>
               );
             })}
@@ -404,17 +404,12 @@ export const CaseStudy = (from) => {
         <p className="deliverables-desc">{caseStudy.deliverables}</p>
         {caseStudy.learnings.length > 0 && (
           <div className="learnings">
-            {caseStudy.name !== 'VitalFlow' && (
-              <h3 className="learnings-heading">LEARNINGS</h3>
-            )}
-            {caseStudy.learnings.map((learning, i) => {
+            <h3 className="learnings-heading">CONCLUSION</h3>
+            {caseStudy.learnings.map((conc, i) => {
               return (
                 <ul key={uniqid()}>
                   <li className="learning-desc">
-                    <span className="learning-desc-heading">
-                      {learning.heading}:
-                    </span>{' '}
-                    {learning.desc}
+                    {conc.desc}
                   </li>
                 </ul>
               );
