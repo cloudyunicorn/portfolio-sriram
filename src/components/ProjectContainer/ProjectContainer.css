@@ -116,6 +116,12 @@
   .project__image {
     width: 85vw;
   }
+
+  .project__text {
+    gap: 1rem;
+
+  }
+
   .project__layout {
     flex-direction: column;
   }
@@ -125,4 +131,19 @@
   .casestudy--button {
     margin-top: 2rem;
   }
+
+  .project__layout {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    overflow: hidden;
+  }
+
+  .link--casestudy {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
 }

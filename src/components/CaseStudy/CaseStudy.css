@@ -422,14 +422,13 @@
   .lowfide-imgs1,
   .lowfide-imgs2,
   .paper-wireframes-imgs {
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   .lowfide-imgs1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 169px;
-    row-gap: 72px;
+    display: flex;
+    justify-content: center;
   }
 
   .lowfide1-img {
@@ -466,7 +465,12 @@
   }
 
   .ui-images2 {
+    justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .ui-images {
+    justify-content: center;
   }
 
   .ui-img2:first-child {
@@ -478,14 +482,22 @@
 
   .figma-embed {
   /* height: 600px; */
-  width: 280px;
-}
+    width: 280px;
+  }
 
-.figma-prototype {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .figma-prototype {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-}
+  }
+
+  .desktop-mobile-figma {
+    width: 280px;
+  }
+
+  .bus-op-img {
+    width: 100%;
+  }
 }

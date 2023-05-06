@@ -377,6 +377,7 @@ export const CaseStudy = (from) => {
               style={{ border: '0px solid rgba(0, 0, 0, 0.1)' }}
               width="1390"
               height="1000"
+              className="figma-embed"
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpUoif52bqYTUt5bSUmv9Iy%2FNestQuest%3Fpage-id%3D256%253A2468%26node-id%3D256-2469%26viewport%3D730%252C459%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D256%253A2469%26hide-ui%3D1"
             ></iframe>
             <iframe
