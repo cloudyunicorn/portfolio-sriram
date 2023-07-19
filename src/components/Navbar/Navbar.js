@@ -54,7 +54,7 @@ const Navbar = () => {
 
           <li className="nav__list-item">
               <a
-                href="https://drive.google.com/file/d/1mmT066-LDrzR1_vTwzd9CWVf-j1xt7c-/view?usp=share_link"
+                href="https://drive.google.com/file/d/10cMX-0XJ82EVOXHmiPRtMqNgXqb_kDaC/view?usp=sharing"
                 // onClick={}
                 className="link link--nav"
               >

@@ -112,4 +112,8 @@
   .about__contact {
     justify-content: center;
   }
+
+  .dp-box {
+    margin-right: 0;
+  }
 }
