@@ -116,4 +116,8 @@
   .dp-box {
     margin-right: 0;
   }
+
+  .about-desc {
+    margin-top: -1rem !important;
+  }
 }
